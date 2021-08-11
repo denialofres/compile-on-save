@@ -1,0 +1,15 @@
+{
+    "name": "compile-on-save",
+    "main": "./lib/main",
+    "version": "0.0.0",
+    "description": "Compiles files when they're saved",
+    "keywords": [],
+	"activationCommands": {
+		"atom-workspace": "compile-on-save:toggle"
+  	},
+  	"repository": "https://github.com/denialofres/rust-compile-on-save",
+  	"license": "MIT",
+  	"engines": {
+    	"atom": ">=1.0.0 <2.0.0"
+  	}
+}
